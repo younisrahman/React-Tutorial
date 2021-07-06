@@ -1,16 +1,16 @@
 import React, { Component } from 'react'
 import WithHoc from './WithHoc'
 
-
-class Home extends Component {
+class File3 extends Component {
     render() {
         // console.log(this.props)
         return (
             <div>
-                <h6 style={{ fontSize: 50 }}>Name is {this.props.name}</h6>
+                <h6 style={{ fontSize: 50 }}>Name is {this.props.name} on File 3</h6>
             </div>
+            
         )
     }
 }
 
-export default WithHoc(Home)
+export default WithHoc(File3)
